@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         EditText secondPw = (EditText) findViewById(R.id.password2);
         String second = (secondPw.getText().toString());
 
+
         if (first.equals(second)){
             tv.setText("THANK YOU");
         }else{
